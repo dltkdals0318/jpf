@@ -78,57 +78,49 @@
 /* ===== HELVETICA NEUE FONT FACE ===== */
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-UltraLight.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-UltraLight.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Thin.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Thin.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Light.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Roman.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Roman.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Medium.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Bold.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Heavy.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Heavy.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../source/font/HelveticaNeue-Black.woff2")
-    format("woff2");
+  src: url("../source/font/HelveticaNeue-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
@@ -869,16 +861,24 @@ body {
 .scroll-reveal {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
 }
 .scroll-reveal.visible {
   opacity: 1;
   transform: translateY(0);
 }
 /* 각 요소 딜레이 */
-.scroll-reveal:nth-child(2) { transition-delay: 0.15s; }
-.scroll-reveal:nth-child(3) { transition-delay: 0.3s; }
-.scroll-reveal:nth-child(4) { transition-delay: 0.45s; }
+.scroll-reveal:nth-child(2) {
+  transition-delay: 0.15s;
+}
+.scroll-reveal:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.scroll-reveal:nth-child(4) {
+  transition-delay: 0.45s;
+}
 
 #mainCont .titleBox .sTit {
   font-size: 11px;
@@ -893,7 +893,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.05em;
   color: #fff;
-  margin: 0 0 4px;
+  margin: 0 0 14px;
 }
 
 #mainCont .titleBox .bTit2 {
@@ -908,15 +908,15 @@ body {
   font-size: 13px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
-  margin: 0 0 10px;
-  letter-spacing: 0.04em;
+  margin: 0;
+  letter-spacing: 0.01em;
 }
 
 #mainCont .titleBox .date {
   font-size: 13px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
-  margin: 0;
+  margin: -12px 0 0;
   letter-spacing: 0.06em;
 }
 
